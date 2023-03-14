@@ -16,5 +16,11 @@ def long_planeteer_calls(list):
     return False
 
 
-def find_the_cheese():
-    pass
+def find_the_cheese(list):
+    cheeses = ['cheddar', 'gouda', 'camembert']
+
+    for cheese in cheeses:
+        if cheese in list:
+            return cheese
+
+    return None
